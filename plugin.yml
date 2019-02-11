@@ -1,0 +1,43 @@
+name: IranPvP
+main: me.iran.iranpvp.IranPvP
+version: 1.0
+commands:
+  elo:
+    description: elo
+  view:
+    description: view
+  toggleplayers:
+    description: toggle players
+  duel:
+    description: duel
+  accept:
+    description: accept
+  arena:
+    description: arena
+  deny:
+    description: deny
+  ping:
+    description: ping
+    aliases: [itwo]
+  team:
+    description: team
+    aliases: [t]
+  setpracticespawn:
+    description: setspawn
+  gametype:
+    description: gametype
+  iranpvpitems:
+    description: items
+  items:
+    description: items
+  seteditor:
+    description: set editor
+  spectate:
+    description: spec
+    aliases: [spec]
+  leave:
+    description: leave ffa
+  join:
+    description: join ffa
+  ffa:
+    description: start ffa

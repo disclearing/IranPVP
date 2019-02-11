@@ -1,0 +1,140 @@
+SET_SPAWN: '&aSet practice spawn'
+SET_EDITOR_SPAWN: '&aSet editor spawn'
+IN_DUEL_ERROR: '&4Cant do this while in a duel'
+IN_QUEUE_ERROR: '&4Cant do this while in queue'
+TARGET_IN_QUEUE: 'cant duel %target% because they are in queue'
+IN_FFA_ERROR: '&4Cant do this while in the FFA'
+IN_SPECTATOR_ERROR: '&4Cant do this while in Spectator mode'
+IN_SPECTATOR_TARGET: '%player% is in spectator mode and cant get invites'
+ARENA_REMOVE_SUCCESS: '&cThe arena by the name of &6%arena% &chas been deleted'
+ARENA_REMOVE_FAIL: '&cError while trying to delete arena &6%arena%'
+ARENA_CREATE_SUCCESS: 'arena %arena% created successfully'
+ARENA_CREATE_FAIL: 'could not create arena %arena% as it already exists'
+ARENA_TELEPORT: 'Teleported to arena %arena% created by %creator%'
+ARENA_SET_TEAM1: 'set team1 loc for %arena%'
+ARENA_SET_TEAM2: 'set team2 loc for %arena%'
+ARENA_SET_LOC1: 'Set %arena%s loc 1'
+ARENA_SET_LOC2: 'Set %arena%s loc 2'
+ARENA_SET_TIME: 'set arena %arena%s time to %time%'
+ARENA_SET_TEAM_TRUE: 'set arena %arena% to a team arena'
+ARENA_SET_TEAM_FALSE: 'set arena %arena% to a 1v1 arena'
+TARGET_NULL: '%target% could not be found'
+TARGET_IS_PLAYER: 'Cant duel yourself'
+ALREADY_DUELED_TARGET: 'You have already dueled %target%'
+TARGET_BUSY: '%target% is busy right now'
+PLAYER_IN_DUEL: 'cant do this while in a duel'
+IN_TEAM_ERROR: 'cant do this while in a team'
+TARGET_IN_TEAM: '%target% is in a team and cant recieve duels'
+SPECTATE_TEAM_MESSAGE: 'spectating team %team%'
+SPECTATE_PLAYER_MESSAGE: 'spectating %player1% vs %player2%'
+SPECTATE_PLAYER_MESSAGE_RANKED: '&3spectating match &a%player1%&b(%player1elo%) &cvs &a%player2%&b(%player2elo%)'
+ENDERPEARL_COOLDOWN_MESSAGE: '&b&lCooldown for &c&l%timer%'
+KIT_EDITOR: '&4Kit Editor'
+TOGGLEPLAYERS_ON: '&aYou have hidden everyone'
+TOGGLEPLAYERS_OFF: '&cEveryone is visible now'
+RANKED_SWORD: '&a&lRanked Queue'
+UNRANKED_SWORD: '&b&lUnranked Queue'
+CREATE_TEAM: '&6&lCreate Team'
+TEAM_INFO: '&a&lTeam Info'
+DISBAND_TEAM: '&c&lDisband Team'
+ALL_TEAMS: '&e&lView Current Teams'
+LEAVE_TEAM: '&c&lLeave Team'
+PING: '&aPing: &l%ping%'
+PING_TARGET: '&a%target% ping: &l%ping%'
+MATCH_TIMER: 5
+MATCH_WAIT_MESSAGE: '&eMatch starting in &c%timer% &eseconds'
+MATCH_START_MESSAGE: '&eMatch started'
+DUEL_INVENTORY: '&cDuel Inventory'
+UNRANKED_INVENTORY: '&cUnranked Inventory'
+RANKED_INVENTORY: '&cRanked Inventory'
+KIT_EDITOR_INVENTORY: '&cKit Editor'
+FFA_INVENTORY: '&cFFA inventory'
+GAME_MODES_INVENTORY: '&cGame modes'
+TEAM_DUEL_INVENTORY: '&cTeam Duel Inventory'
+ELO_MATCH_FOUND: '&6&lFound a match agains &e%opponent% &7(%opponentelo%)'
+SCOREBOARD:
+  TITLE: '&6&lIranPvP &f| &e&lPractice'
+  LINE_TOP: '--------'
+  LINE_BOTTOM: '-------'
+  ENDERPEARL: '&bEnderpearl: '
+  ENERGY: '&eEnergy: '
+  KOTH:
+    OPPONENT: '&cOpponent: '
+    CAPPER: '&dCapper: '
+    ARENA: '&a%arena%:'
+  LOBBY:
+    ONLINE: '&3Online: '
+    QUEUE: '&6Queue: '
+  TEAM:
+    OPPONENT: '&cOpponent: '
+    ALIVE: 'Alive'
+    ARENA: '&cArena'
+  FFA:
+    ALIVE: 'Players Alive: '  
+  DUEL:
+    OPPONENT: '&cOpponent: '
+    DURATION: '&aDuration:'
+ITEM_LORE:
+  RANKED: '&aRanked: &l%size%'
+  UNRANKED: '&bUnranked: &l%size%'
+ELO_MESSAGE:
+  LINE: '&7&m--------------------------------------------------'
+  MESSAGE_1: '%winner% +&a%elo% &7(%newelo%) Gametype &6%gametype%'
+  MESSAGE_2: '%loser% -&c%elo% &7(%newelo%) Gametype &6%gametype%'
+TEAM_INVITE_MESSAGE:
+  LINE: '&7&m--------------------------------------------------'
+  MESSAGE: '&bYou have been invited to join team %team%'
+  CLICK: '&a&l[Click Me to Join]'
+TEAM_RECIEVE_INVITE:
+  LINE: '&7&m--------------------------------------------------'
+  MESSAGE: '&6Team &e%team% &6has sent a &lTeam Duel &c(Gametype &l%gametype%&c)'
+  CLICK: '&a&l[Click Me to Accept]'
+KOTH_RECIEVE_INVITE:
+  LINE: '&7&m--------------------------------------------------'
+  MESSAGE: '&6Team &e%team% &6has sent a &lKOTH Duel &c(Gametype &l%gametype%&c)'
+  CLICK: '&a&l[Click Me to Accept]'
+DUEL_RECIEVE_INVITE:
+  LINE: '&7&m--------------------------------------------------'
+  MESSAGE: '&6Team &e%player% &6has sent a duel request &c(Gametype &l%gametype%&c)'
+  CLICK: '&a&l[Click Me to Accept]'
+BARD:
+  STRENGTH:
+    POWER: 30
+    COOLDOWN: 10
+    DURATION: 5
+    AMPLIFIER: 1
+  SPEED:
+    POWER: 10
+    COOLDOWN: 5
+    DURATION: 10
+    AMPLIFIER: 1
+  REGENERATION:
+    POWER: 35
+    COOLDOWN: 15
+    DURATION: 5
+    AMPLIFIER: 1
+  JUMP_BOOST:
+    POWER: 15
+    COOLDOWN: 5
+    DURATION: 5
+    AMPLIFIER: 1
+  FIRE_RESISTANCE:
+    POWER: 5
+    COOLDOWN: 3
+    DURATION: 15
+    AMPLIFIER: 1
+  RESISTANCE:
+    POWER: 25
+    COOLDOWN: 10
+    DURATION: 10
+    AMPLIFIER: 1
+  MESSAGE: '&c%bard% has used %effect%'
+KOTH:
+  LIVES: 2
+  COOLDOWN: 10
+ITEM_COLOR:
+  UNRANKED: '&a'
+  RANKED: '&c'
+  KIT_EDITOR: '&b'
+  TEAM_DUEL: '&e'
+  
